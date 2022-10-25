@@ -1,0 +1,25 @@
+/* body{
+    background-color: darkblue;
+}
+.grid{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+.item-1{
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+}
+.item-2{
+    grid-column: 5 / span 6;
+    grid-row: 1 / span 2;
+}
+.item-3{
+    grid-column: 1 / span 3;
+    grid-row:3 / span 4;
+}
+.item-4, .item-5{
+    grid-column: 4 / span 6;
+} */

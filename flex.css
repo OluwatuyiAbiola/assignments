@@ -1,0 +1,97 @@
+:root{
+    --clr-po: hsl(31, 77%, 52%);
+    --clr-pc: hsl(184, 100%, 22%);
+    --clr-pdc: hsl(179, 100%, 13%);
+
+    --clr-ng: hsl(0, 0%, 95%);
+    --clr-nt: hsla(0, 0%, 100%, 0.75);
+
+    --fs-body: 0.9375em;
+
+    --ff-main: 'Big Shoulders Display', cursive;
+    --ff-sec: 'Lexend Deca', sans-serif;
+
+    --fw-main: 700;
+    --fw-sec: 400;
+}
+body{
+    background: var(--clr-ng);
+    font-size: var(--fs-body);
+}
+h1{
+    color: var(--clr-ng);
+    font-family: var(--ff-main);
+}
+p{
+    color: var(--clr-nt);
+    font-family: var(--ff-sec);
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    width: 60%;
+    color: white;
+    margin: auto;
+    margin-top: 6em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.box{
+    padding: 3em;
+}
+.box1{
+    background: var(--clr-po);
+}
+.box2{
+    background: var(--clr-pc);
+}
+.box3{
+    background: var(--clr-pdc);
+}
+.btn{
+    cursor: pointer;
+    margin-top: 5em;
+    padding: 1em;
+    border: var(--clr-nt) solid 2px;
+    color: var(--clr-nt);
+    border-radius: 50px;
+    width: 70%;
+    background: transparent;
+}
+.gridlink{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--clr-po);
+    border-radius: 50px;
+    color: var(--clr-ng);
+    padding: 1em;
+    
+}
+
+
+/* Ignore from below */
+@media only screen and (max-width: 375px){
+    h1{
+        font-size: 0.925em;
+    }
+    p{
+        font-size: 0.525em;
+    }
+    .flex{
+        width: min-content;   
+        line-height: 1;
+        margin-top: 0;
+    }
+    .box{
+        padding: 1em;
+        width: 90px;
+    }
+    .btn{
+        font-size: 0.525em;
+    }
+    
+}
